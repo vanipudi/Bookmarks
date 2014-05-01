@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="bookmarks.css" />
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+</head>
+<body>
+
+<!--div id="folders"><label>Name</label><input type= "text" id="foldername1">
+</div-->
+<div id ="outerdiv">
+<div id = "maindiv" class="grad">
+
+<h2>Bookmarks</h2>
+<div id ="inputs">
+
+<div class="row1"><label>URL</label><input type="url" id="url" ></div>
+<div class="row1"><label>Name</label><input type= "text" id="name"></div>
+<div class="row1"><label>Folders</label><select name="folders" id="selectfolder">
+<!--option value="Movies">Movies</option>
+<option value="Games">Games</option>
+<option value="Apps">Apps</option>
+<option value="Kids">Kids</option>
+<option value="Health">Health</option--></select>
+
+<button type="button" class="btn btn-warning" id="managefolder">Manage Folders</button>
+<div id="foldersdiv"><label>FolderName</label><input type= "text" id="foldername">
+<button type="button" class="btn btn-success" id="addfolder">Add</button>
+<button type="button" class="btn btn-danger" id="deletefolder">Delete</button>
+</div>
+
+</div>
+</div>
+<div class="buttonHolder">
+ <button type="button" class="btn btn-primary" id="savebtn">Save</button>
+ <button type="button" class="btn btn-inverse" id="clear" />Reset
+</button>
+</div>
+</div>
+</div>
+
+<div id="myresult"><div id="result"></div></div>
+<script src="bookmarks.js"></script>
+<!--script src="bootstrap/js/bootstrap.min.js"></script-->
+</body>
+</html>
