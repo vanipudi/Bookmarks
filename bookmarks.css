@@ -19,7 +19,8 @@ margin:20px;
 
 #maindiv
 {
- width:480px;
+ width:50%;
+ min-width:20em;
  /*height:250px;*/
  display:inline-block;
  text-align:center;
@@ -35,7 +36,8 @@ margin:20px;
 
 #foldersdiv
 {display:none;
- width:450px;
+ width:45%;
+ min-width:20em;
  background-color: lightblue;
  padding:8px;
  margin:5px;
@@ -75,8 +77,8 @@ label
   text-align: center;
  }
  
-/*#savebtn,#clear,#addfolder,#deletefolder,#inputs,.buttonHolder,#result,#managefolder
-{font-size:2.0vmin;}*/
+#savebtn,#clear,#addfolder,#deletefolder,#inputs,.buttonHolder,#result,#managefolder
+{font-size:2.0vmin;}
 
 .grad
 {
