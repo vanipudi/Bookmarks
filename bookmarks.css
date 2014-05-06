@@ -19,7 +19,7 @@ margin:20px;
 
 #maindiv
 {
- width:50%;
+ width:60%;
  min-width:20em;
  /*height:250px;*/
  display:inline-block;
@@ -36,7 +36,8 @@ margin:20px;
 
 #foldersdiv
 {display:none;
- width:45%;
+ width:100%;
+ min-width:20em;
  min-width:20em;
  background-color: lightblue;
  padding:8px;
@@ -51,10 +52,11 @@ label
 }
 
 #inputs
-{
+{ height:50%;
   display:inline-block;
   text-align:center;
   padding:10px;
+ 
 }
 
 #result
@@ -70,15 +72,24 @@ label
 }
 
 .row1
-{padding:5px;}
+{   
+	padding:5px;
+}
+
+.row1 select,.row1 input
+{
+  width:auto;
+  display: inline-block;
+}
 
 .buttonHolder
  {
   text-align: center;
  }
- 
+
+
 #savebtn,#clear,#addfolder,#deletefolder,#inputs,.buttonHolder,#result,#managefolder
-{font-size:2.0vmin;}
+{font-size:2.3vmin;}
 
 .grad
 {
