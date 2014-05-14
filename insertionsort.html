@@ -1,0 +1,21 @@
+<DOCTYPE html>
+<html>
+<head><!--link rel="stylesheet" type="text/css" href="mathtables.css" /-->
+<script src="jquery.js"></script>
+<!--link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" /-->
+</head>
+<body>
+<h3>Insertion Sort</h3>
+<div id="outerdiv">
+  <div id="size"><form onsubmit="inputboxes(); return false;"><label>Array Size</label><input type="text" id="arraysize" class="form-control"><input type="submit"></form></div>
+  <div>
+      <button type="button" class="btn btn-warning" id="best">Best    Case</button>
+      <button type="button" class="btn btn-warning" id="worst">Worst Case</button>
+      <button type="button" class="btn btn-warning" id="random">Random Input</button>
+   </div>
+   <div id='result'></div>
+</div>
+</body>
+<script src="insertionsort.js"></script>
+
+</html>
